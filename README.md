@@ -49,27 +49,38 @@ python genius_lyrics_gui_tkinter.py
 
 - Select a file or folder, set your options, and click **Start**!
 
-### Build a macOS .app
+### Command-Line Usage
 
-1. Install PyInstaller:
-   ```bash
-   pip install pyinstaller
-   ```
-2. Build the app:
-   ```bash
-   pyinstaller --windowed --onefile --name "Metadata Fetcher" genius_lyrics_gui_tkinter.py
-   ```
-3. The `.app` will be in the `dist/` folder.
+You can also use Metadata Fetcher from the command line for batch processing:
+
+```bash
+python metadata_fetcher.py <path-to-mp3-or-folder>
+```
+
+**Examples:**
+
+- Process a single MP3 file:
+  ```bash
+  python metadata_fetcher.py "/path/to/song.mp3"
+  ```
+- Process all MP3 files in a folder:
+  ```bash
+  python metadata_fetcher.py "/path/to/music/folder"
+  ```
+- Force update (overwrite existing lyrics):
+  ```bash
+  python metadata_fetcher.py "/path/to/folder" --force
+  ```
+- Set a custom delay between requests (in seconds):
+  ```bash
+  python metadata_fetcher.py "/path/to/folder" --delay 2.0
+  ```
 
 ## Configuration
 
-- **Thread Count:** Set how many files to process in parallel.
+- **Thread Count:** Set how many files to process in parallel (GUI only).
 - **Delay:** Set a delay between requests to avoid being blocked by Genius.com.
 - **Section Headers:** Choose whether to keep or remove [Chorus], [Verse], etc.
-
-<p align="center">
-  <img src="image.png" alt="Metadata Fetcher UI" width="250"/>
-</p>
 
 ## Requirements
 
