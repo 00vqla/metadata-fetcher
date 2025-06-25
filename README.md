@@ -1,6 +1,8 @@
 # Metadata Fetcher
 
-![Metadata Fetcher UI](image.png)
+<p align="center">
+  <img src="image.png" alt="Metadata Fetcher UI" width="350"/>
+</p>
 
 A powerful, user-friendly batch tool for fetching and embedding lyrics and metadata into your MP3 files. It features a modern drag-and-drop GUI for macOS, multi-threaded processing, and robust Genius.com integration.
 
