@@ -80,13 +80,18 @@ python3 metadata_fetcher.py <path-to-mp3-or-folder>
 - **Section Headers:** Choose whether to keep or remove [Chorus], [Verse], etc.
 
 <p align="center">
-  <img src="image.png" alt="Metadata Fetcher UI" width="250"/>
-</p>
-
-<p align="center">
-  <img src="image 2.png" alt="Lyrics in Music Player" width="250"/>
-  <br>
-  <em>Example: Lyrics displayed in a music player after using Metadata Fetcher.</em>
+  <table>
+    <tr>
+      <td align="center">
+        <img src="image.png" alt="Metadata Fetcher UI" width="250"/><br>
+        <em>App UI</em>
+      </td>
+      <td align="center">
+        <img src="image 2.png" alt="Lyrics in Music Player" width="250"/><br>
+        <em>Lyrics in Music Player</em>
+      </td>
+    </tr>
+  </table>
 </p>
 
 ## Requirements
