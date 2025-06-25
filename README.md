@@ -1,9 +1,5 @@
 # Metadata Fetcher
 
-<p align="center">
-  <img src="image.png" alt="Metadata Fetcher UI" width="350"/>
-</p>
-
 A powerful, user-friendly batch tool for fetching and embedding lyrics and metadata into your MP3 files. It features a modern drag-and-drop GUI for macOS, multi-threaded processing, and robust Genius.com integration.
 
 ---
@@ -67,12 +63,13 @@ python genius_lyrics_gui_tkinter.py
 
 ## Configuration
 
-| Configure options in the app:<br><br>
-- **Thread Count:** Set how many files to process in parallel.<br>
-- **Delay:** Set a delay between requests to avoid being blocked by Genius.com.<br>
-- **Section Headers:** Choose whether to keep or remove [Chorus], [Verse], etc.<br> |
-|:----------------------------------|:-----------------------------:|
-| <img src="image.png" alt="Metadata Fetcher UI" width="250"/> |
+- **Thread Count:** Set how many files to process in parallel.
+- **Delay:** Set a delay between requests to avoid being blocked by Genius.com.
+- **Section Headers:** Choose whether to keep or remove [Chorus], [Verse], etc.
+
+<p align="center">
+  <img src="image.png" alt="Metadata Fetcher UI" width="250"/>
+</p>
 
 ## Requirements
 
