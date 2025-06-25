@@ -48,7 +48,7 @@ python3 genius_lyrics_gui_tkinter.py
 
 ### Command-Line Usage
 
-CLI batch processing:
+CLI processing:
 
 ```bash
 python3 metadata_fetcher.py <path-to-mp3-or-folder>
