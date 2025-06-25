@@ -67,9 +67,12 @@ python genius_lyrics_gui_tkinter.py
 
 ## Configuration
 
-- **Thread Count:** Set how many files to process in parallel.
-- **Delay:** Set a delay between requests to avoid being blocked by Genius.com.
-- **Section Headers:** Choose whether to keep or remove [Chorus], [Verse], etc.
+| Configure options in the app:<br><br>
+- **Thread Count:** Set how many files to process in parallel.<br>
+- **Delay:** Set a delay between requests to avoid being blocked by Genius.com.<br>
+- **Section Headers:** Choose whether to keep or remove [Chorus], [Verse], etc.<br> |
+|:----------------------------------|:-----------------------------:|
+| <img src="image.png" alt="Metadata Fetcher UI" width="250"/> |
 
 ## Requirements
 
