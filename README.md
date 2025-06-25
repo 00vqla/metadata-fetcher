@@ -103,4 +103,4 @@ python3 metadata_fetcher.py <path-to-mp3-or-folder>
 
 ## License
 
-© 2025 vq vault.
+© 2025 vq vault
