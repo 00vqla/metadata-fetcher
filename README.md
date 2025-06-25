@@ -41,7 +41,7 @@ A powerful, user-friendly batch tool for fetching and embedding lyrics and metad
 ### Run the GUI
 
 ```bash
-python genius_lyrics_gui_tkinter.py
+python3 genius_lyrics_gui_tkinter.py
 ```
 
 - Select a file or folder, set your options, and click **Start**!
