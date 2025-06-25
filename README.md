@@ -36,9 +36,6 @@ A powerful, user-friendly batch tool for fetching and embedding lyrics and metad
      pip install tkinterdnd2
      ```
 
-3. **(Optional) Build as a macOS .app:**
-   - See instructions below.
-
 ## Usage
 
 ### Run the GUI
@@ -51,7 +48,7 @@ python genius_lyrics_gui_tkinter.py
 
 ### Command-Line Usage
 
-You can also use Metadata Fetcher from the command line for batch processing:
+CLI batch processing:
 
 ```bash
 python3 metadata_fetcher.py <path-to-mp3-or-folder>
