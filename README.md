@@ -2,18 +2,29 @@
 
 **Metadata Fetcher™** by **vq vault** is a powerful, user-friendly batch tool for fetching and embedding lyrics and metadata into your MP3 files. It features a modern drag-and-drop GUI for macOS, multi-threaded processing, and robust Genius.com integration.
 
+---
+
+## 🚀 Download
+
+**[⬇️ Download the latest Metadata Fetcher for macOS (.app)](https://github.com/00vqla/metadata-fetcher/releases/latest)**
+
+- Download the `.zip` file from the [Releases page](https://github.com/00vqla/metadata-fetcher/releases).
+- Unzip it and move `Metadata Fetcher.app` to your Applications folder.
+- If you see a security warning, right-click the app and choose **Open** the first time.
+
+---
+
 ## Features
 
 - 🎵 **Batch Processing:** Process entire folders of MP3 files at once.
 - 🔍 **Lyrics Extraction:** Fetch lyrics from Genius.com and embed them in MP3 tags.
-- 🏷️ **Metadata Enhancement:** Update year, lyrics, and more—while preserving your original title.
 - ⚡ **Multi-threaded:** Speed up processing with parallel threads.
 - 🖱️ **Drag-and-Drop:** Easily select files or folders.
-- 🖥️ **Modern GUI:** Clean, resizable interface with progress and logs.
-- 🛡️ **Respectful Crawling:** Built-in delays to avoid rate-limiting.
 - 📝 **Section Formatting:** Option to keep or remove [Chorus], [Verse], etc.
 
-## Installation
+---
+
+## Installation (from source)
 
 1. **Install Python 3.7+** (macOS comes with Python, but you may want to update it).
 2. **Install dependencies:**
@@ -65,8 +76,4 @@ python genius_lyrics_gui_tkinter.py
 
 ## License
 
-© 2024 vq vault. All rights reserved.™
-
-## Contributing
-
-Pull requests and issues are welcome! 
+© 2024 vq vault.
