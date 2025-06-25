@@ -54,26 +54,26 @@ python genius_lyrics_gui_tkinter.py
 You can also use Metadata Fetcher from the command line for batch processing:
 
 ```bash
-python metadata_fetcher.py <path-to-mp3-or-folder>
+python3 metadata_fetcher.py <path-to-mp3-or-folder>
 ```
 
 **Examples:**
 
 - Process a single MP3 file:
   ```bash
-  python metadata_fetcher.py "/path/to/song.mp3"
+  python3 metadata_fetcher.py "/path/to/song.mp3"
   ```
 - Process all MP3 files in a folder:
   ```bash
-  python metadata_fetcher.py "/path/to/music/folder"
+  python3 metadata_fetcher.py "/path/to/music/folder"
   ```
 - Force update (overwrite existing lyrics):
   ```bash
-  python metadata_fetcher.py "/path/to/folder" --force
+  python3 metadata_fetcher.py "/path/to/folder" --force
   ```
 - Set a custom delay between requests (in seconds):
   ```bash
-  python metadata_fetcher.py "/path/to/folder" --delay 2.0
+  python3 metadata_fetcher.py "/path/to/folder" --delay 2.0
   ```
 
 ## Configuration
@@ -95,4 +95,4 @@ python metadata_fetcher.py <path-to-mp3-or-folder>
 
 ## License
 
-© 2024 vq vault.
+© 2025 vq vault.
