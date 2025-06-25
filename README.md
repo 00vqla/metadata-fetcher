@@ -78,12 +78,13 @@ python metadata_fetcher.py <path-to-mp3-or-folder>
 
 ## Configuration
 
-| Configure options in the app:<br><br>
-- **Thread Count:** Set how many files to process in parallel (GUI only).<br>
-- **Delay:** Set a delay between requests to avoid being blocked by Genius.com.<br>
-- **Section Headers:** Choose whether to keep or remove [Chorus], [Verse], etc.<br> |
-|:----------------------------------|:-----------------------------:|
-| <img src="image.png" alt="Metadata Fetcher UI" width="250"/> |
+- **Thread Count:** Set how many files to process in parallel (GUI only).
+- **Delay:** Set a delay between requests to avoid being blocked by Genius.com.
+- **Section Headers:** Choose whether to keep or remove [Chorus], [Verse], etc.
+
+<p align="center">
+  <img src="image.png" alt="Metadata Fetcher UI" width="250"/>
+</p>
 
 ## Requirements
 
