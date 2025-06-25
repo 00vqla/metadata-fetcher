@@ -1,0 +1,17 @@
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.DS_Store
+*.swp
+*.swo
+*.bak
+*.tmp
+*.log
+dist/
+build/
+*.app/
+.env
+.idea/
+.vscode/
+debug_*.html 
