@@ -1,6 +1,6 @@
 # Metadata Fetcher
 
-A powerful, user-friendly batch tool for fetching and embedding lyrics and metadata into your MP3 files. It features a modern drag-and-drop GUI for macOS, multi-threaded processing, and robust Genius.com integration.
+A python tool to fetch and embed metadata from Genius.com to mp3 files
 
 ---
 
