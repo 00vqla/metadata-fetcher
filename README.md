@@ -4,80 +4,111 @@ A powerful, user-friendly batch tool for fetching and embedding lyrics and metad
 
 ---
 
-## 🚀 Download
-
-**[⬇️ Download the latest Metadata Fetcher for macOS (.app)](https://github.com/00vqla/metadata-fetcher/releases/latest)**
-
-- Download the `.zip` file from the [Releases page](https://github.com/00vqla/metadata-fetcher/releases).
-- Unzip it and move `Metadata Fetcher.app` to your Applications folder.
-- If you see a security warning, right-click the app and choose **Open** the first time.
-
----
-
-## Features
-
-- 🎵 **Batch Processing:** Process entire folders of MP3 files at once.
-- 🔍 **Lyrics Extraction:** Fetch lyrics from Genius.com and embed them in MP3 tags.
-- ⚡ **Multi-threaded:** Speed up processing with parallel threads.
-- 🖱️ **Drag-and-Drop:** Easily select files or folders.
-- 📝 **Section Formatting:** Option to keep or remove [Chorus], [Verse], etc.
-
----
-
-## Installation (from source)
-
-1. **Install Python 3.7+**
-2. **Install dependencies:**
-   ```bash
-   pip install -r requirements.txt
-   ```
-   - For drag-and-drop support:
-     ```bash
-     pip install tkinterdnd2
-     ```
-
-## Usage
-
-### Run the GUI
+## Quick Start
 
 ```bash
+# Install dependencies
+pip install -r requirements.txt
+
+# (Optional) For drag-and-drop support
+pip install tkinterdnd2
+
+# Run the GUI
 python3 genius_lyrics_gui_tkinter.py
 ```
 
-- Select a file or folder, set your options, and click **Start**!
-
-### Command-Line Usage
-
-CLI processing:
+Or, for CLI usage:
 
 ```bash
 python3 metadata_fetcher.py <path-to-mp3-or-folder>
 ```
 
-**Examples:**
+---
 
-- Process a single MP3 file:
-  ```bash
-  python3 metadata_fetcher.py "/path/to/song.mp3"
-  ```
-- Process all MP3 files in a folder:
-  ```bash
-  python3 metadata_fetcher.py "/path/to/music/folder"
-  ```
-- Force update (overwrite existing lyrics):
-  ```bash
-  python3 metadata_fetcher.py "/path/to/folder" --force
-  ```
-- Set a custom delay between requests (in seconds):
-  ```bash
-  python3 metadata_fetcher.py "/path/to/folder" --delay 2.0
-  ```
+## Requirements
+
+- Python 3.7+
+- `requests`
+- `mutagen`
+- `tkinterdnd2` (for drag-and-drop)
+
+---
+
+## Usage
+
+### Method 1: GUI (Recommended)
+
+- Select a file or folder, set your options, and click **Start**!
+
+### Method 2: Command-Line
+
+```bash
+python3 metadata_fetcher.py "/path/to/song.mp3"
+python3 metadata_fetcher.py "/path/to/music/folder"
+python3 metadata_fetcher.py "/path/to/folder" --force
+python3 metadata_fetcher.py "/path/to/folder" --delay 2.0
+```
+
+---
+
+## How It Works
+
+1. **Batch Processing:** Process entire folders of MP3 files at once.
+2. **Lyrics Extraction:** Fetch lyrics from Genius.com and embed them in MP3 tags.
+3. **Metadata Update:** Only lyrics and year are updated; other tags are preserved.
+4. **Multi-threaded:** Speed up processing with parallel threads.
+5. **Section Formatting:** Option to keep or remove [Chorus], [Verse], etc.
+
+---
+
+## Output Format
+
+Lyrics are embedded in the MP3 file's ID3 tags. You can view them in most music players that support lyrics display.
+
+---
 
 ## Configuration
 
 - **Thread Count:** Set how many files to process in parallel (GUI only).
 - **Delay:** Set a delay between requests to avoid being blocked by Genius.com.
 - **Section Headers:** Choose whether to keep or remove [Chorus], [Verse], etc.
+
+---
+
+## Example Output
+
+```
+Found 3 MP3 file(s):
+1. song1.mp3
+2. song2.mp3
+3. song3.mp3
+
+==================================================
+Processing: song1.mp3
+==================================================
+
+1. Fetching lyrics from Genius.com...
+2. Embedding lyrics and year...
+✅ Success! Updated: song1.mp3
+```
+
+---
+
+## Troubleshooting
+
+- If lyrics are not found, try cleaning up the song title or artist metadata.
+- For drag-and-drop, ensure `tkinterdnd2` is installed.
+- If you see a security warning on macOS, right-click the app and choose **Open** the first time.
+
+---
+
+## License
+
+This project is open source and available under the MIT License.
+
+---
+
+## Screenshots
 
 <p align="center">
   <table>
@@ -93,14 +124,3 @@ python3 metadata_fetcher.py <path-to-mp3-or-folder>
     </tr>
   </table>
 </p>
-
-## Requirements
-
-- Python 3.7+
-- `requests`
-- `mutagen`
-- `tkinterdnd2` (for drag-and-drop)
-
-## License
-
-© 2025 vq vault
