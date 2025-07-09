@@ -1,4 +1,4 @@
-# Metadata Fetcher
+# py-genius-tag
 
 A python tool to fetch and embed metadata from Genius.com to mp3 files
 
