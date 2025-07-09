@@ -11,7 +11,7 @@ pip install -r requirements.txt
 pip install tkinterdnd2
 
 # gui usage
-python genius_lyrics_gui_tkinter.py
+python genius_lyrics_gui.py
 ```
 
 Or, for CLI usage:
