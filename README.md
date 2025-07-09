@@ -9,10 +9,10 @@ A python tool to fetch and embed metadata from Genius.com to mp3 files
 pip install -r requirements.txt
 
 # run GUI (drag & drop interface)
-python genius_lyrics_gui.py
+python runner_gui.py
 
 # or run CLI
-python metadata_fetcher.py "/path/to/song.mp3"
+python runner.py "/path/to/song.mp3"
 ```
 
 ## Requirements
@@ -26,23 +26,23 @@ python metadata_fetcher.py "/path/to/song.mp3"
 
 ### GUI (Recommended)
 ```bash
-python genius_lyrics_gui.py
+python runner_gui.py
 ```
 Simply drag and drop MP3 files or folders onto the interface.
 
 ### CLI
 ```bash
 # single file
-python metadata_fetcher.py "/path/to/song.mp3"
+python runner.py "/path/to/song.mp3"
 
 # entire folder
-python metadata_fetcher.py "/path/to/music/folder"
+python runner.py "/path/to/music/folder"
 
 # force update existing metadata
-python metadata_fetcher.py "/path/to/folder" --force
+python runner.py "/path/to/folder" --force
 
 # add delay between requests (rate limiting)
-python metadata_fetcher.py "/path/to/folder" --delay 2.0
+python runner.py "/path/to/folder" --delay 2.0
 ```
 
 ## Example Output
